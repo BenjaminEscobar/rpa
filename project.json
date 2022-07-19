@@ -3,8 +3,10 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": "[6.0.0]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.MicrosoftVision.Activities": "[3.0.1-preview]",
     "UiPath.System.Activities": "[22.4.1]",
     "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
@@ -40,7 +42,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1238,2193" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:um="clr-namespace:UiPath.MicrosoftVision;assembly=UiPath.MicrosoftVision" xmlns:uma="clr-namespace:UiPath.MicrosoftVision.Activities;assembly=UiPath.MicrosoftVision.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1384,4368" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:um="clr-namespace:UiPath.MicrosoftVision;assembly=UiPath.MicrosoftVision" xmlns:uma="clr-namespace:UiPath.MicrosoftVision.Activities;assembly=UiPath.MicrosoftVision.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="47">
       <x:String>System.Activities</x:String>
@@ -98,7 +98,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="678,2128" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1394,4303" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="imgText">
         <Variable.Default>
@@ -121,7 +121,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BuildDataTable DataTable="[vDtbDatosCarro]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="636,59" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;placa&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;nit&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;placa&gt;239gfy&lt;/placa&gt;&#xA;    &lt;nit&gt;45302332&lt;/nit&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
+    <ui:BuildDataTable DataTable="[vDtbDatosCarro]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="1352,59" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;placa&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;nit&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;placa&gt;239gfy&lt;/placa&gt;&#xA;    &lt;nit&gt;45302332&lt;/nit&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -129,25 +129,25 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:BuildDataTable>
-    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="636,1937" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://portal.sat.gob.gt/portal/impuesto-de-circulacion/">
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="1352,4112" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://portal.sat.gob.gt/portal/impuesto-de-circulacion/">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="602,1835" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1318,4010" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatosCarro]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="560,1743" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatosCarro]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1276,3918" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="526,1628" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1242,3803" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Boolean" Name="exiteNuevaConsulta" />
                     </Sequence.Variables>
@@ -157,7 +157,7 @@
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="input placa" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[row(0).ToString]">
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="input placa" sap:VirtualizedContainerService.HintSize="1200,52" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[row(0).ToString]">
                       <ui:TypeInto.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="eb73ae7a-c50a-4d98-8022-4e1d3dc14c5a" InformativeScreenshot="cbef9e8fd1dab3a033303487478ddeda" Selector="&lt;webctrl src='https://farm4.sat.gob.gt/japSitio-web-veh/consultas/paadServicio*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;table' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -175,7 +175,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:TypeInto>
-                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="input nit" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[row(1).ToString]">
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="input nit" sap:VirtualizedContainerService.HintSize="1200,52" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[row(1).ToString]">
                       <ui:TypeInto.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="120b4036-d4f7-44a6-8a89-303fd01febd3" InformativeScreenshot="04fd92b0e9f14a7b1e01e1b2fe400fc5" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Portal SAT | Impuesto de Circulación de Vehículos/Garantías Mobi*' /&gt;&lt;ctrl name='Portal SAT | Impuesto de Circulación de Vehículos/Garantías Mobi*' role='document' /&gt;&lt;ctrl name='Consulta' role='document' /&gt;&lt;ctrl name='Consulta impuesto sobre circulación de vehiculos' role='document' /&gt;&lt;ctrl role='row' /&gt;&lt;ctrl role='row' /&gt;&lt;ctrl name='¿Cuántos vehículos desea consultar? (Elija el prefijo, escriba e*' role='cell' /&gt;&lt;ctrl idx='9' role='row' /&gt;&lt;ctrl role='editable text' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -193,7 +193,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:TypeInto>
-                    <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot 'IMG  frmAcciones:valida...'" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[imagen]">
+                    <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot 'IMG  frmAcciones:valida...'" sap:VirtualizedContainerService.HintSize="1200,52" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[imagen]">
                       <ui:TakeScreenshot.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0895734b-e3df-4e10-8a43-4339a11251bf" InformativeScreenshot="1e2264f0f73c1febaa435462f75fcccb" Selector="&lt;webctrl src='https://farm4.sat.gob.gt/japSitio-web-veh/consultas/paadServicio*' tag='IFRAME' /&gt;&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;center&amp;gt;img' tableRow='1' tag='IMG' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -211,7 +211,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:TakeScreenshot>
-                    <ui:SaveImage DisplayName="Save Image" FileName="codigo.png" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[imagen]">
+                    <ui:SaveImage DisplayName="Save Image" FileName="codigo.png" sap:VirtualizedContainerService.HintSize="1200,52" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[imagen]">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -219,30 +219,30 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:SaveImage>
-                    <uma:MicrosoftVisionScope ContinueOnError="{x:Null}" DisplayName="Microsoft Vision Scope" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="MicrosoftVisionScope_1" ServiceURL="https://vision-lab.cognitiveservices.azure.com/" SubscriptionKey="760381f1ff6745659cb7f5a751c1cf03">
+                    <uma:MicrosoftVisionScope ContinueOnError="{x:Null}" SubscriptionKey="{x:Null}" DisplayName="Microsoft Vision Scope" sap:VirtualizedContainerService.HintSize="1200,266" sap2010:WorkflowViewState.IdRef="MicrosoftVisionScope_1" ServiceURL="https://vision-lab.cognitiveservices.azure.com/">
                       <uma:MicrosoftVisionScope.Body>
                         <ActivityAction x:TypeArguments="um:MicrosoftVisionApplication">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="um:MicrosoftVisionApplication" Name="MicrosoftVisionScope" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,178" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,180" sap2010:WorkflowViewState.IdRef="Sequence_5">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uma:ReadHandwrittenText ContinueOnError="{x:Null}" ImageURL="{x:Null}" Result="{x:Null}" TelemetryService="{x:Null}" DisplayName="Read Handwritten Text" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="ReadHandwrittenText_1" ImagePath="codigo.png" Mode="Handwritten" Text="[imgText]" />
+                            <uma:ReadHandwrittenText ContinueOnError="{x:Null}" ImageURL="{x:Null}" Result="{x:Null}" TelemetryService="{x:Null}" DisplayName="Read Handwritten Text" sap:VirtualizedContainerService.HintSize="334,88" sap2010:WorkflowViewState.IdRef="ReadHandwrittenText_1" ImagePath="codigo.png" Mode="Handwritten" Text="[imgText]" />
                           </Sequence>
                         </ActivityAction>
                       </uma:MicrosoftVisionScope.Body>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uma:MicrosoftVisionScope>
-                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="input imagen" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="[imgText]">
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="input imagen" sap:VirtualizedContainerService.HintSize="1200,52" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="[imgText]">
                       <ui:TypeInto.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2b1e5dbd-455a-44d2-8d13-bb46acda73d2" InformativeScreenshot="eeb89ed10ddf3de5a28634e2263dc023" Selector="&lt;webctrl src='https://farm4.sat.gob.gt/japSitio-web-veh/consultas/paadServicio*' tag='IFRAME' /&gt;&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;center&amp;gt;input' tableRow='1' tag='INPUT' type='text' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -260,7 +260,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:TypeInto>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  frmAcciones:btnV...'" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  frmAcciones:btnV...'" sap:VirtualizedContainerService.HintSize="1200,52" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
                       <ui:Click.CursorPosition>
                         <ui:CursorPosition Position="Center">
                           <ui:CursorPosition.OffsetX>
@@ -288,7 +288,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:Click>
-                    <ui:UiElementExists DisplayName="Private: Element Exists 'LI'" Exists="[existeAlertaImagen]" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                    <ui:UiElementExists DisplayName="Private: Element Exists 'LI'" Exists="[existeAlertaImagen]" sap:VirtualizedContainerService.HintSize="1200,52" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
                       <ui:UiElementExists.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="69ed1473-df46-4514-b03d-2144e5764937" InformativeScreenshot="8094c89f728b833696c89ecaf8cc1460" Selector="&lt;webctrl src='https://farm4.sat.gob.gt/japSitio-web-veh/consultas/paadServicio*' tag='IFRAME' /&gt;&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='LI' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -306,7 +306,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:UiElementExists>
-                    <If Condition="[existeAlertaImagen]" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If Condition="[existeAlertaImagen]" sap:VirtualizedContainerService.HintSize="1200,2523" sap2010:WorkflowViewState.IdRef="If_1">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -314,13 +314,13 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                        <Sequence sap:VirtualizedContainerService.HintSize="955,2364" sap2010:WorkflowViewState.IdRef="Sequence_11">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:Boolean" Name="existeAlertaImgC" />
                           </Sequence.Variables>
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
@@ -381,7 +381,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:SaveImage>
-                                <uma:MicrosoftVisionScope ContinueOnError="{x:Null}" DisplayName="Microsoft Vision Scope" sap:VirtualizedContainerService.HintSize="835,266" sap2010:WorkflowViewState.IdRef="MicrosoftVisionScope_2" ServiceURL="https://vision-lab.cognitiveservices.azure.com/" SubscriptionKey="760381f1ff6745659cb7f5a751c1cf03">
+                                <uma:MicrosoftVisionScope ContinueOnError="{x:Null}" SubscriptionKey="{x:Null}" DisplayName="Microsoft Vision Scope" sap:VirtualizedContainerService.HintSize="835,266" sap2010:WorkflowViewState.IdRef="MicrosoftVisionScope_2" ServiceURL="https://vision-lab.cognitiveservices.azure.com/">
                                   <uma:MicrosoftVisionScope.Body>
                                     <ActivityAction x:TypeArguments="um:MicrosoftVisionApplication">
                                       <ActivityAction.Argument>
@@ -637,7 +637,7 @@
                         </Sequence>
                       </If.Else>
                     </If>
-                    <ui:UiElementExists DisplayName="Element Exists 'INPUT  frmAcciones:btnL...'" Exists="[exiteNuevaConsulta]" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
+                    <ui:UiElementExists DisplayName="Element Exists 'INPUT  frmAcciones:btnL...'" Exists="[exiteNuevaConsulta]" sap:VirtualizedContainerService.HintSize="1200,106" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
                       <ui:UiElementExists.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c81fef3f-334d-4cdd-bf69-3488c75db645" InformativeScreenshot="8b72a38c121230ad68c4120f64209a42" Selector="&lt;webctrl src='https://farm4.sat.gob.gt/japSitio-web-veh/consultas/paadServicio*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;center&amp;gt;table' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -649,7 +649,13 @@
                         </ui:Target>
                       </ui:UiElementExists.Target>
                     </ui:UiElementExists>
-                    <If Condition="[exiteNuevaConsulta]" sap:VirtualizedContainerService.HintSize="484,387" sap2010:WorkflowViewState.IdRef="If_3">
+                    <If Condition="[exiteNuevaConsulta]" sap:VirtualizedContainerService.HintSize="1200,52" sap2010:WorkflowViewState.IdRef="If_3">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
                         <Sequence sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_19">
                           <sap:WorkflowViewStateService.ViewState>
